@@ -1,0 +1,24 @@
+name: brivity_sso
+version: 0.1.0
+
+authors:
+  - Andrew Stuntz <andrewbstuntz@gmail.com>
+
+targets:
+  brivity_sso:
+    main: src/brivity_sso.cr
+
+crystal: 0.22.0
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+  crecto:
+    github: fridgerator/crecto
+  pg:
+    github: will/crystal-pg
+  micrate:
+    github: juanedi/micrate
